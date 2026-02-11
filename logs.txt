@@ -495,3 +495,104 @@
 2026-02-11 13:39:12 [INFO] : Navigated to ZigWheels Home Page.
 2026-02-11 13:39:19 [INFO] : Google Error Captured: Couldn’t sign you in
 2026-02-11 13:39:19 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 15:16:28 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 15:16:36 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:16:53 [INFO] : Bike extraction completed.
+2026-02-11 15:16:53 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 15:17:03 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 15:17:08 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:17:31 [INFO] : Used car models displayed and stored.
+2026-02-11 15:17:31 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 15:17:50 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 15:18:10 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:18:17 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 15:18:17 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 15:32:58 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 15:33:04 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:33:20 [INFO] : Bike extraction completed.
+2026-02-11 15:33:20 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 15:33:31 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 15:33:35 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:33:42 [INFO] : Used car models displayed and stored.
+2026-02-11 15:33:42 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 15:33:49 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 15:33:52 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 15:34:39 [INFO] : Scenario Failed: Verify Google Login Error Message
+2026-02-11 16:36:50 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 16:37:04 [INFO] : Bikes captured.
+2026-02-11 16:37:04 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 16:37:11 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 16:37:59 [INFO] : Cars captured.
+2026-02-11 16:37:59 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 16:38:08 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 16:38:19 [INFO] : Google Error: Couldn’t sign you in
+2026-02-11 16:38:19 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 16:43:05 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 16:43:11 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:43:19 [INFO] : Royal Enfield bikes stored.
+2026-02-11 16:43:19 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 16:43:28 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 16:43:33 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:43:53 [INFO] : Chennai used cars stored.
+2026-02-11 16:43:53 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 16:44:02 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 16:44:09 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:44:15 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 16:44:15 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 16:48:44 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:48:50 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:48:57 [INFO] : Bikes storage complete.
+2026-02-11 16:48:57 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:49:05 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 16:49:10 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:49:17 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 16:49:26 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 16:49:31 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:49:37 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 16:49:37 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 16:51:35 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:51:40 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:51:48 [INFO] : Bikes storage complete.
+2026-02-11 16:51:48 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:51:56 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 16:52:02 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:52:09 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 16:52:17 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 16:52:22 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:52:27 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 16:52:27 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 16:58:44 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:58:52 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:59:02 [INFO] : Royal Enfield data stored.
+2026-02-11 16:59:02 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 16:59:09 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 16:59:13 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:59:31 [INFO] : Used car data stored.
+2026-02-11 16:59:31 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 16:59:38 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 16:59:42 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 16:59:47 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 16:59:47 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 17:00:54 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:00:58 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:01:02 [INFO] : Royal Enfield data stored.
+2026-02-11 17:01:02 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:01:07 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 17:01:10 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:01:27 [INFO] : Used car data stored.
+2026-02-11 17:01:27 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 17:01:34 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 17:01:35 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:01:57 [INFO] : Scenario Failed: Verify Google Login Error Message
+2026-02-11 17:03:05 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:03:06 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:03:11 [INFO] : Royal Enfield data stored.
+2026-02-11 17:03:11 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:03:16 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 17:03:20 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:03:34 [INFO] : Used car data stored.
+2026-02-11 17:03:34 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 17:03:41 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 17:03:44 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:03:50 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 17:03:50 [INFO] : Scenario Passed: Verify Google Login Error Message

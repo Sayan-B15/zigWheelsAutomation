@@ -11,18 +11,24 @@ public class ZigPage {
         PageFactory.initElements(driver, this);
     }
 
-    public By bikeByBrand = By.xpath("/html/body/div[8]/div[2]/div[1]/div/ul/li[2]");
-    public By hondaBrand = By.xpath("/html/body/div[8]/div[2]/div[2]/div[2]/div/div[1]/div/ul/li[6]/a");
-    public By readMore = By.xpath("//*[@id=\"seoCont\"]/span/span");
-    public By tableRows = By.xpath("//table[contains(@class,'tbl')]/tbody/tr");
+    // Bike Locators - Royal Enfield Focus
+    public By newBikesMenu = By.xpath("//span[normalize-space()='NEW BIKES']");
+    public By upcomingBikesOption = By.xpath("//a[@data-track-label='nav-upcoming-bikes']");
+    public By royalEnfieldBrand = By.xpath("//a[@title='upcoming Royal Enfield bikes']");
+    public By bikeNames = By.xpath("//strong[contains(@class,'lnk-hvr')]");
+    public By bikePrices = By.xpath("//div[contains(@class,'fnt-15')]");
 
-    public By moreMenu = By.xpath("//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[5]/span");
-    public By usedCarsLink = By.xpath("//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[5]/ul/li[2]/a");
-    public By chennaiCity = By.xpath("//*[@id=\"popularCityList\"]/li[7]/a");
+    // Used Cars Locators - Chennai Focus
+    public By moreMenu = By.xpath("//span[@class='c-p']");
+    public By usedCarsLink = By.xpath("//a[normalize-space()='Used Cars']");
+    public By chennaiCity = By.xpath("//a[@class='searchFilter' and @data-value='Chennai']");
+    public By popularModelCheckboxes = By.xpath("//ul[contains(@class,'popularModels')]//input[@type='checkbox']");
+    public By carNames = By.xpath("//a[@data-track-label='Car-name']");
+    public By carPrices = By.xpath("//span[contains(@class,'zw-cmn-price')]");
 
-    public By loginIcon = By.xpath("//*[@id=\"des_lIcon\"]");
-    public By googleBtn = By.xpath("//*[@id=\"myModal3-modal-content\"]/div[1]/div/div[3]/div[6]/div/span[2]");
-    public By emailField = By.xpath("//*[@id=\"identifierId\"]");
-    // Updated for the header text capture
-    public By errorMsg = By.xpath("//span[contains(text(),'Couldn’t sign you in')]");
+    // Login Locators
+    public By loginIcon = By.xpath("//*[@id='des_lIcon']");
+    public By googleBtn = By.xpath("//*[@id='myModal3-modal-content']//span[contains(text(),'Google')]");
+    public By emailField = By.id("identifierId");
+    public By googleErrorHeader = By.xpath("//span[contains(text(),'Couldn’t sign you in')]");
 }
