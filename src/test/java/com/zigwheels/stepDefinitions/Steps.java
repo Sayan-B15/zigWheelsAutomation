@@ -19,7 +19,6 @@ public class Steps extends BaseClass {
     public void user_is_on_home_page() {
         driver.get(prop.getProperty("url"));
         ScreenshotUtils.takeScreenshot("ZigWheels_Homepage");
-        Logs.info("Navigated to ZigWheels Home Page.");
     }
 
     @When("User identifies upcoming Royal Enfield bikes under 4Lac")
@@ -28,29 +27,25 @@ public class Steps extends BaseClass {
         driver.findElement(zig.upcomingBikesOption).click();
 
         WebElement reBtn = wait.until(ExpectedConditions.elementToBeClickable(zig.royalEnfieldBrand));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", reBtn);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", reBtn);
 
-        // Scroll to capture full bike list for screenshot
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,600)");
         wait.until(ExpectedConditions.visibilityOfElementLocated(zig.bikeNames));
-        ScreenshotUtils.takeScreenshot("Royal_Enfield_Upcoming_Bikes");
+        ScreenshotUtils.takeScreenshot("Royal_Enfield_Bikes");
 
         List<WebElement> names = driver.findElements(zig.bikeNames);
         List<WebElement> prices = driver.findElements(zig.bikePrices);
         int excelRow = 1;
 
-        System.out.println("--- Upcoming Royal Enfield Bikes < 4Lac ---");
         for (int i = 0; i < names.size(); i++) {
             String name = names.get(i).getText();
             String priceTxt = (i < prices.size()) ? prices.get(i).getText() : "N/A";
             double val = parsePrice(priceTxt);
 
-            // Filter: Price < 4.0 Lakh and remove summary rows (Showrooms/Service)
-            if (val > 0 && val < 4.0 && !name.contains("Best Mileage") && !name.contains("Honda Bike")) {
+            if (val > 0 && val < 4.0 && !name.contains("Best Mileage")) {
                 System.out.println("Bike: " + name + " | Price: " + priceTxt);
                 ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow++, 0, name);
-                ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow - 1, 1, priceTxt);
+                ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow-1, 1, priceTxt);
             }
         }
     }
@@ -63,15 +58,10 @@ public class Steps extends BaseClass {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[contains(@class,'popularModels')]")));
         List<WebElement> checks = driver.findElements(zig.popularModelCheckboxes);
-        for (WebElement cb : checks) {
-            if (!cb.isSelected()) {
-                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", cb);
-            }
-        }
+        for (WebElement cb : checks) if (!cb.isSelected()) ((JavascriptExecutor) driver).executeScript("arguments[0].click();", cb);
 
-        // Multi-part screenshots using scrolling
         for (int part = 1; part <= 4; part++) {
-            ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 800)");
+            ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 1000)");
             Thread.sleep(2000);
             ScreenshotUtils.takeScreenshot("Used_Cars_Chennai_Part_" + part);
         }
@@ -80,7 +70,6 @@ public class Steps extends BaseClass {
         List<WebElement> carPrices = driver.findElements(zig.carPrices);
         int count = Math.min(carNames.size(), carPrices.size());
 
-        System.out.println("--- Popular Used Cars in Chennai ---");
         for (int i = 0; i < count; i++) {
             String name = carNames.get(i).getText().trim();
             String price = carPrices.get(i).getText().trim();
@@ -92,32 +81,44 @@ public class Steps extends BaseClass {
         }
     }
 
+    @When("User attempts to login with Google using invalid details")
+    public void login_attempt() {
+        // 1. Open the Login Modal
+        wait.until(ExpectedConditions.elementToBeClickable(zig.loginIcon)).click();
+
+        // 2. Click the Google Button using a more robust XPath
+        // This targets the span containing "Google" inside the login modal
+        WebElement googleBtn = wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//div[@id='myModal3-modal-content']//span[text()='Google']")));
+
+        // Using JavaScript click to bypass any overlay issues
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", googleBtn);
+        Logs.info("Clicked Google login button.");
+
+        // 3. Switch focus to the Google Popup
+        String parentWindow = driver.getWindowHandle();
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(d -> d.getWindowHandles().size() > 1);
+
+        for (String windowHandle : driver.getWindowHandles()) {
+            if (!windowHandle.equals(parentWindow)) {
+                driver.switchTo().window(windowHandle);
+                break;
+            }
+        }
+
+        // 4. Enter invalid email in the Google identifier field
+        WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(zig.emailField));
+        emailInput.sendKeys("invalid.user.mumbai@gmail.com" + Keys.ENTER);
+    }
+
     @Then("Capture and display {string} error message")
     public void capture_google_error(String expectedMsg) {
         try {
             WebElement error = wait.until(ExpectedConditions.visibilityOfElementLocated(zig.googleErrorHeader));
-            String actualMsg = error.getText();
-            System.out.println("Captured Error: " + actualMsg);
-            Logs.info("Google Error Captured: " + actualMsg);
+            System.out.println("Captured Error: " + error.getText());
+            Logs.info("Google Error Captured: " + error.getText());
             ScreenshotUtils.takeScreenshot("Google_Login_Error");
-        } catch (Exception e) {
-            Logs.info("Error message capture timed out.");
-        }
-    }
-
-    @Then("The bike details should be displayed and stored in Excel")
-    public void bike_done() { Logs.info("Royal Enfield data stored."); }
-
-    @Then("Display the list of popular models and store in Excel")
-    public void car_done() { Logs.info("Used car data stored."); }
-
-    @When("User attempts to login with Google using invalid details")
-    public void login_attempt() {
-        wait.until(ExpectedConditions.elementToBeClickable(zig.loginIcon)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(zig.googleBtn)).click();
-        String parent = driver.getWindowHandle();
-        for (String h : driver.getWindowHandles()) if (!h.equals(parent)) driver.switchTo().window(h);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(zig.emailField)).sendKeys("invalid.user.mumbai@gmail.com" + Keys.ENTER);
+        } catch (Exception e) { Logs.info("Login error capture timed out."); }
     }
 
     private double parsePrice(String text) {
@@ -128,4 +129,10 @@ public class Steps extends BaseClass {
         } catch (Exception e) {}
         return -1;
     }
+
+    @Then("The bike details should be displayed and stored in Excel")
+    public void bike_done() { Logs.info("Bikes storage complete."); }
+
+    @Then("Display the list of popular models and store in Excel")
+    public void car_done() { Logs.info("Cars storage complete."); }
 }
