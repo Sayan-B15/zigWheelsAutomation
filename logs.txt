@@ -1,0 +1,497 @@
+2026-02-11 11:22:38 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:22:46 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:22:51 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:23:00 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:23:05 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:23:09 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 11:24:26 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:24:27 [INFO] : Navigated to ZigWheels Home Page
+2026-02-11 11:24:30 [INFO] : Bike Found: Honda SP 125
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda Shine
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda Unicorn
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda Hornet 2.0
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda SP160
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda CB350 H'ness
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda CB125 Hornet
+2026-02-11 11:24:31 [INFO] : Bike Found: Honda CB350
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda CB350RS
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda Livo
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda Shine 100
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda CB300R
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda Shine 100 DX
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda CB300F
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda NX200
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda CB300F Flex-Fuel
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda CB350C
+2026-02-11 11:24:32 [INFO] : Bike Found: Best Mileage
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda Bike Showrooms
+2026-02-11 11:24:32 [INFO] : Bike Found: Honda Bike Service Centers
+2026-02-11 11:24:33 [INFO] : Bike identification step completed successfully.
+2026-02-11 11:24:33 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:24:38 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:24:42 [INFO] : Navigated to ZigWheels Home Page
+2026-02-11 11:24:45 [INFO] : Extracted Used Cars in Chennai
+2026-02-11 11:24:45 [INFO] : Used car list displayed.
+2026-02-11 11:24:45 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:24:50 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:24:53 [INFO] : Navigated to ZigWheels Home Page
+2026-02-11 11:25:04 [INFO] : Scenario Failed: Verify Google Login Error Message
+2026-02-11 11:31:00 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:31:03 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:31:03 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:31:05 [INFO] : Selected Honda Brand
+2026-02-11 11:31:05 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:31:06 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:31:07 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:31:08 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:31:08 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:31:08 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:31:08 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:31:08 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:31:08 [INFO] : Bike details extraction completed.
+2026-02-11 11:31:08 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:31:14 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:31:18 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:31:20 [INFO] : Navigated to Used Cars section
+2026-02-11 11:31:21 [INFO] : Selected Chennai City
+2026-02-11 11:31:21 [INFO] : Extracted Car: Jeep Compass 1.4 Sport
+2026-02-11 11:31:21 [INFO] : Extracted Car: MG Hector Plus Savvy Pro CVT 2023-2025
+2026-02-11 11:31:21 [INFO] : Extracted Car: Toyota Innova 2.5 G1 BSIV
+2026-02-11 11:31:21 [INFO] : Extracted Car: Maruti Alto 800 VXI Plus BSVI
+2026-02-11 11:31:21 [INFO] : Extracted Car: Porsche Cayenne Diesel
+2026-02-11 11:31:21 [INFO] : Extracted Car: Maruti Swift LXI Option
+2026-02-11 11:31:21 [INFO] : Extracted Car: Kia Seltos GTX Plus Diesel AT
+2026-02-11 11:31:21 [INFO] : Extracted Car: MG ZS EV Exclusive
+2026-02-11 11:31:21 [INFO] : Extracted Car: Hyundai Venue S 2023-2025
+2026-02-11 11:31:21 [INFO] : Extracted Car: Mercedes-Benz A-Class Limousine A 200
+2026-02-11 11:31:21 [INFO] : Extracted Car: Hyundai i20 Magna
+2026-02-11 11:31:21 [INFO] : Extracted Car: Maruti Grand Vitara Alpha BSVI
+2026-02-11 11:31:21 [INFO] : Used car models displayed in console.
+2026-02-11 11:31:21 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:31:26 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:31:29 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:31:30 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:31:33 [INFO] : Entered invalid credentials in Google popup
+2026-02-11 11:31:54 [INFO] : Failed to capture error message.
+2026-02-11 11:31:54 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 11:35:40 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:35:43 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:35:43 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:35:45 [INFO] : Selected Honda Brand
+2026-02-11 11:35:45 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:35:46 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:35:47 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:35:48 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:35:48 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:35:48 [INFO] : Bike details extraction completed.
+2026-02-11 11:35:48 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:35:54 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:35:57 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:36:02 [INFO] : Navigated to Used Cars section
+2026-02-11 11:36:02 [INFO] : Selected Chennai City
+2026-02-11 11:36:02 [INFO] : Extracted Car: Tata Nexon XZ Plus BSVI
+2026-02-11 11:36:02 [INFO] : Extracted Car: Land Rover Discovery Sport TD4 HSE 7S
+2026-02-11 11:36:02 [INFO] : Extracted Car: Jeep Compass 1.4 Sport
+2026-02-11 11:36:02 [INFO] : Extracted Car: MG Hector Plus Savvy Pro CVT 2023-2025
+2026-02-11 11:36:02 [INFO] : Extracted Car: Toyota Innova 2.5 G1 BSIV
+2026-02-11 11:36:02 [INFO] : Extracted Car: Maruti Alto 800 VXI Plus BSVI
+2026-02-11 11:36:03 [INFO] : Extracted Car: Porsche Cayenne Diesel
+2026-02-11 11:36:03 [INFO] : Extracted Car: Maruti Swift LXI Option
+2026-02-11 11:36:03 [INFO] : Extracted Car: Kia Seltos GTX Plus Diesel AT
+2026-02-11 11:36:03 [INFO] : Extracted Car: MG ZS EV Exclusive
+2026-02-11 11:36:03 [INFO] : Extracted Car: Hyundai Venue S 2023-2025
+2026-02-11 11:36:03 [INFO] : Extracted Car: Mercedes-Benz A-Class Limousine A 200
+2026-02-11 11:36:03 [INFO] : Used car models displayed in console.
+2026-02-11 11:36:03 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:36:08 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:36:10 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:36:11 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:36:31 [INFO] : Scenario Failed: Verify Google Login Error Message
+2026-02-11 11:38:38 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:38:41 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:38:42 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:38:44 [INFO] : Selected Honda Brand
+2026-02-11 11:38:44 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:38:54 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:38:58 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:38:58 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:39:00 [INFO] : Selected Honda Brand
+2026-02-11 11:39:00 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:39:01 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:39:02 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:39:03 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:39:03 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:39:03 [INFO] : Bike details extraction completed.
+2026-02-11 11:39:03 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:39:09 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:39:12 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:39:15 [INFO] : Navigated to Used Cars section
+2026-02-11 11:39:15 [INFO] : Selected Chennai City
+2026-02-11 11:39:15 [INFO] : Extracted Car: Volvo XC60 Inscription D5 BSIV
+2026-02-11 11:39:15 [INFO] : Extracted Car: Kia Seltos HTK G
+2026-02-11 11:39:15 [INFO] : Extracted Car: Volkswagen Virtus GT Plus Sport
+2026-02-11 11:39:15 [INFO] : Extracted Car: Honda City i VTEC V
+2026-02-11 11:39:15 [INFO] : Extracted Car: Tata Nano Cx
+2026-02-11 11:39:15 [INFO] : Extracted Car: Tata Nexon XZ Plus BSVI
+2026-02-11 11:39:15 [INFO] : Extracted Car: Land Rover Discovery Sport TD4 HSE 7S
+2026-02-11 11:39:15 [INFO] : Extracted Car: Jeep Compass 1.4 Sport
+2026-02-11 11:39:15 [INFO] : Extracted Car: MG Hector Plus Savvy Pro CVT 2023-2025
+2026-02-11 11:39:15 [INFO] : Extracted Car: Toyota Innova 2.5 G1 BSIV
+2026-02-11 11:39:15 [INFO] : Extracted Car: Maruti Alto 800 VXI Plus BSVI
+2026-02-11 11:39:15 [INFO] : Extracted Car: Porsche Cayenne Diesel
+2026-02-11 11:39:15 [INFO] : Used car models displayed in console.
+2026-02-11 11:39:15 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:39:20 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:39:24 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:39:24 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:39:27 [INFO] : Entered invalid credentials in Google popup
+2026-02-11 11:39:47 [INFO] : Failed to capture error message.
+2026-02-11 11:39:47 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 11:42:05 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:42:10 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:42:11 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:42:13 [INFO] : Selected Honda Brand
+2026-02-11 11:42:13 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:42:16 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:42:17 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:42:17 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:42:17 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:42:18 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:42:18 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:42:19 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:42:19 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:42:20 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:42:20 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:42:20 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:42:21 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:42:21 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:42:21 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:42:22 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:42:22 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:42:23 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:42:23 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:42:23 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:42:23 [INFO] : Bike details extraction completed.
+2026-02-11 11:42:23 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:42:31 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:42:35 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:42:38 [INFO] : Navigated to Used Cars section
+2026-02-11 11:42:39 [INFO] : Selected Chennai City
+2026-02-11 11:42:39 [INFO] : Extracted Car: Tata Tiago XT
+2026-02-11 11:42:39 [INFO] : Extracted Car: Honda City 1.5 V MT
+2026-02-11 11:42:39 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 11:42:46 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:42:50 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:42:51 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:42:54 [INFO] : Entered invalid credentials in Google popup
+2026-02-11 11:43:15 [INFO] : Failed to capture error message.
+2026-02-11 11:43:15 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 11:48:15 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:48:19 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:48:19 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:48:22 [INFO] : Selected Honda Brand
+2026-02-11 11:48:22 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:48:25 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:48:26 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:48:26 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:48:26 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:48:27 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:48:27 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:48:27 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:48:28 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:48:28 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:48:29 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:48:30 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:48:30 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:48:31 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:48:31 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:48:31 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:48:32 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:48:32 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:48:33 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:48:33 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:48:33 [INFO] : Bike details extraction completed.
+2026-02-11 11:48:33 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:48:42 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:48:46 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:48:51 [INFO] : Navigated to Used Cars section
+2026-02-11 11:48:51 [INFO] : Selected Chennai City
+2026-02-11 11:48:51 [INFO] : Extracted Car: MG Hector Plus Sharp Diesel MT
+2026-02-11 11:48:52 [INFO] : Extracted Car: Honda City i-VTEC ZX
+2026-02-11 11:48:52 [INFO] : Extracted Car: Honda Jazz 1.5 S i DTEC
+2026-02-11 11:48:52 [INFO] : Extracted Car: Honda City SV MT
+2026-02-11 11:48:52 [INFO] : Extracted Car: Maruti Celerio VXI
+2026-02-11 11:48:52 [INFO] : Extracted Car: 53 Used Hyundai i20
+2026-02-11 11:48:52 [INFO] : Extracted Car: 50 Used Honda City
+2026-02-11 11:48:52 [INFO] : Extracted Car: 46 Used Honda Amaze
+2026-02-11 11:48:52 [INFO] : Extracted Car: 44 Used Maruti Swift
+2026-02-11 11:48:52 [INFO] : Extracted Car: 42 Used Hyundai Creta
+2026-02-11 11:48:52 [INFO] : Extracted Car: 35 Used Hyundai Grand i10
+2026-02-11 11:48:52 [INFO] : Used car models displayed in console.
+2026-02-11 11:48:52 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 11:49:05 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:49:08 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:49:09 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:49:15 [INFO] : Entered invalid credentials in Google popup
+2026-02-11 11:49:36 [INFO] : Failed to capture error message.
+2026-02-11 11:49:36 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 11:56:59 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:57:03 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:57:03 [INFO] : Clicked on Bikes by Brand
+2026-02-11 11:57:07 [INFO] : Selected Honda Brand
+2026-02-11 11:57:08 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 11:57:11 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 11:57:11 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 11:57:11 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 11:57:12 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 11:57:12 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 11:57:12 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 11:57:12 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 11:57:13 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 11:57:13 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 11:57:13 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 11:57:13 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 11:57:14 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 11:57:14 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 11:57:15 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 11:57:15 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 11:57:15 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 11:57:16 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 11:57:16 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 11:57:17 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 11:57:17 [INFO] : Bike details extraction completed.
+2026-02-11 11:57:17 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 11:57:25 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 11:57:29 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:57:31 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 11:57:38 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 11:57:42 [INFO] : Navigated to ZigWheels: https://www.zigwheels.com/
+2026-02-11 11:57:43 [INFO] : Login modal opened and Google button clicked.
+2026-02-11 11:57:47 [INFO] : Entered invalid credentials in Google popup
+2026-02-11 11:58:07 [INFO] : Failed to capture error message.
+2026-02-11 11:58:07 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:02:06 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:02:12 [INFO] : Navigated to ZigWheels Home Page and captured screenshot.
+2026-02-11 12:02:16 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 12:02:18 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 12:02:19 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 12:02:19 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 12:02:20 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 12:02:20 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 12:02:20 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 12:02:20 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 12:02:21 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 12:02:21 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 12:02:22 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 12:02:22 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 12:02:23 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 12:02:23 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 12:02:24 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 12:02:24 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 12:02:24 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 12:02:25 [INFO] : Found Bike: Best Mileage - Livo (70 kmpl)
+2026-02-11 12:02:25 [INFO] : Found Bike: Honda Bike Showrooms - 3779 Outlets
+2026-02-11 12:02:26 [INFO] : Found Bike: Honda Bike Service Centers - 3246
+2026-02-11 12:02:26 [INFO] : Bike details extraction completed.
+2026-02-11 12:02:26 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:02:34 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:02:44 [INFO] : Navigated to ZigWheels Home Page and captured screenshot.
+2026-02-11 12:02:50 [INFO] : Extracted Car: Hyundai Creta 1.6 CRDi SX
+2026-02-11 12:02:50 [INFO] : Extracted Car: MG Hector Hybrid Sharp MT
+2026-02-11 12:02:50 [INFO] : Extracted Car: Audi A4 35 TFSi Premium
+2026-02-11 12:02:50 [INFO] : Extracted Car: Hyundai Grand i10 1.2 Kappa Sportz BSIV
+2026-02-11 12:02:51 [INFO] : Extracted Car: Renault Duster 85PS Diesel RxL
+2026-02-11 12:02:51 [INFO] : Extracted Car: Nissan Sunny Diesel XV
+2026-02-11 12:02:51 [INFO] : Extracted Car: 53 Used Hyundai i20
+2026-02-11 12:02:51 [INFO] : Extracted Car: 50 Used Honda City
+2026-02-11 12:02:51 [INFO] : Extracted Car: 46 Used Honda Amaze
+2026-02-11 12:02:51 [INFO] : Extracted Car: 44 Used Maruti Swift
+2026-02-11 12:02:51 [INFO] : Extracted Car: 42 Used Hyundai Creta
+2026-02-11 12:02:51 [INFO] : Extracted Car: 35 Used Hyundai Grand i10
+2026-02-11 12:02:51 [INFO] : Extracted Car: 34 Used Maruti Celerio
+2026-02-11 12:02:51 [INFO] : Extracted Car: 32 Used Maruti Baleno
+2026-02-11 12:02:51 [INFO] : Extracted Car: 31 Used Kia Seltos
+2026-02-11 12:02:51 [INFO] : Extracted Car: Tata Altroz XZ BSVI
+2026-02-11 12:02:51 [INFO] : Extracted Car: Mahindra Thar LX 4WD Hard Top Diesel BSVI
+2026-02-11 12:02:51 [INFO] : Extracted Car: Nissan Micra Active XV S
+2026-02-11 12:02:51 [INFO] : Extracted Car: Honda City SV MT
+2026-02-11 12:02:52 [INFO] : Extracted Car: Mercedes-Benz GLS 350d 4MATIC
+2026-02-11 12:02:52 [INFO] : Extracted Car: Audi A4 35 TDI Technology
+2026-02-11 12:02:52 [INFO] : Used car models displayed.
+2026-02-11 12:02:52 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 12:03:01 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:03:26 [INFO] : Navigated to ZigWheels Home Page and captured screenshot.
+2026-02-11 12:03:32 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:03:32 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:08:40 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:08:45 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:09:03 [INFO] : Bike details extraction completed.
+2026-02-11 12:09:03 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:09:12 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:09:17 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:09:23 [INFO] : Used car models displayed.
+2026-02-11 12:09:23 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 12:09:31 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:09:35 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:09:42 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:09:42 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:10:49 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:10:56 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:11:11 [INFO] : Bike details extraction completed.
+2026-02-11 12:11:11 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:11:21 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:11:26 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:11:38 [INFO] : Used car models displayed.
+2026-02-11 12:11:38 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 12:11:46 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:11:50 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:11:56 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:11:56 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:19:16 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:19:21 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:19:26 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 12:19:28 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 12:19:28 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 12:19:29 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 12:19:29 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 12:19:29 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 12:19:29 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 12:19:30 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 12:19:30 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 12:19:31 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 12:19:31 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 12:19:32 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 12:19:32 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 12:19:32 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 12:19:33 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 12:19:33 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 12:19:33 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 12:19:34 [INFO] : Bike details extraction and storage completed.
+2026-02-11 12:19:34 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:19:42 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:19:47 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:19:52 [INFO] : Extracted Car: Toyota Etios GD
+2026-02-11 12:19:53 [INFO] : Extracted Car: Kia Sonet GTX Plus Turbo DCT BSVI
+2026-02-11 12:19:53 [INFO] : Extracted Car: Honda Amaze V Petrol
+2026-02-11 12:19:54 [INFO] : Extracted Car: Hyundai i20 Magna
+2026-02-11 12:19:54 [INFO] : Extracted Car: Honda City i-VTEC ZX
+2026-02-11 12:19:54 [INFO] : Extracted Car: Honda Jazz 1.5 S i DTEC
+2026-02-11 12:19:54 [INFO] : Extracted Car: 53 Used Hyundai i20
+2026-02-11 12:19:55 [INFO] : Extracted Car: 50 Used Honda City
+2026-02-11 12:19:55 [INFO] : Extracted Car: 46 Used Honda Amaze
+2026-02-11 12:19:55 [INFO] : Extracted Car: 44 Used Maruti Swift
+2026-02-11 12:19:55 [INFO] : Extracted Car: 42 Used Hyundai Creta
+2026-02-11 12:19:56 [INFO] : Extracted Car: 35 Used Hyundai Grand i10
+2026-02-11 12:19:57 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 12:20:05 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:20:09 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:20:15 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:20:15 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:20:42 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:20:49 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:20:52 [INFO] : Found Bike: Honda SP 125 - Rs. 87,878
+2026-02-11 12:20:54 [INFO] : Found Bike: Honda Shine - Rs. 80,852
+2026-02-11 12:20:55 [INFO] : Found Bike: Honda Unicorn - Rs. 1.13 Lakh
+2026-02-11 12:20:55 [INFO] : Found Bike: Honda Hornet 2.0 - Rs. 1.47 Lakh
+2026-02-11 12:20:55 [INFO] : Found Bike: Honda SP160 - Rs. 1.15 Lakh
+2026-02-11 12:20:56 [INFO] : Found Bike: Honda CB350 H'ness - Rs. 1.92 Lakh
+2026-02-11 12:20:56 [INFO] : Found Bike: Honda CB125 Hornet - Rs. 1.15 Lakh
+2026-02-11 12:20:56 [INFO] : Found Bike: Honda CB350 - Rs. 1.97 Lakh
+2026-02-11 12:20:57 [INFO] : Found Bike: Honda CB350RS - Rs. 1.97 Lakh
+2026-02-11 12:20:57 [INFO] : Found Bike: Honda Livo - Rs. 79,555
+2026-02-11 12:20:58 [INFO] : Found Bike: Honda Shine 100 - Rs. 65,243
+2026-02-11 12:20:58 [INFO] : Found Bike: Honda CB300R - Rs. 2.19 Lakh
+2026-02-11 12:20:59 [INFO] : Found Bike: Honda Shine 100 DX - Rs. 71,746
+2026-02-11 12:20:59 [INFO] : Found Bike: Honda CB300F - Rs. 1.55 Lakh
+2026-02-11 12:20:59 [INFO] : Found Bike: Honda NX200 - Rs. 1.58 Lakh
+2026-02-11 12:20:59 [INFO] : Found Bike: Honda CB300F Flex-Fuel - Rs. 1.55 Lakh
+2026-02-11 12:21:00 [INFO] : Found Bike: Honda CB350C - Rs. 1.88 Lakh
+2026-02-11 12:21:01 [INFO] : Bike details extraction and storage completed.
+2026-02-11 12:21:01 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:21:10 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:21:15 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:21:25 [INFO] : Extracted Car: Toyota Etios GD
+2026-02-11 12:21:26 [INFO] : Extracted Car: Kia Sonet GTX Plus Turbo DCT BSVI
+2026-02-11 12:21:26 [INFO] : Extracted Car: Honda Amaze V Petrol
+2026-02-11 12:21:27 [INFO] : Extracted Car: Hyundai i20 Magna
+2026-02-11 12:21:27 [INFO] : Extracted Car: Honda City i-VTEC ZX
+2026-02-11 12:21:27 [INFO] : Extracted Car: Honda Jazz 1.5 S i DTEC
+2026-02-11 12:21:28 [INFO] : Extracted Car: 53 Used Hyundai i20
+2026-02-11 12:21:28 [INFO] : Extracted Car: 50 Used Honda City
+2026-02-11 12:21:29 [INFO] : Extracted Car: 46 Used Honda Amaze
+2026-02-11 12:21:29 [INFO] : Extracted Car: 44 Used Maruti Swift
+2026-02-11 12:21:30 [INFO] : Extracted Car: 42 Used Hyundai Creta
+2026-02-11 12:21:30 [INFO] : Extracted Car: 35 Used Hyundai Grand i10
+2026-02-11 12:21:31 [INFO] : Scenario Failed: Extract Used Cars in Chennai
+2026-02-11 12:21:39 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:21:44 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:21:50 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:21:50 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 12:23:22 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:23:28 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:23:50 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:23:52 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:24:05 [INFO] : Bike extraction completed.
+2026-02-11 12:24:05 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 12:24:15 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 12:24:21 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:24:32 [INFO] : Used car models displayed and stored.
+2026-02-11 12:24:32 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 12:24:42 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 12:24:45 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 12:24:52 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 12:24:52 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 13:38:10 [INFO] : Started Scenario: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 13:38:18 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 13:38:34 [INFO] : Bike extraction completed.
+2026-02-11 13:38:34 [INFO] : Scenario Passed: Identify Upcoming Honda Bikes under 4Lac
+2026-02-11 13:38:42 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 13:38:47 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 13:39:00 [INFO] : Used car models displayed and stored.
+2026-02-11 13:39:00 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 13:39:08 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 13:39:12 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 13:39:19 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 13:39:19 [INFO] : Scenario Passed: Verify Google Login Error Message
