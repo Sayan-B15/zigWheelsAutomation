@@ -11,7 +11,7 @@ public class ZigPage {
         PageFactory.initElements(driver, this);
     }
 
-    // Bike Locators - Royal Enfield Focus
+    // Royal Enfield Locators
     public By newBikesMenu = By.xpath("//span[normalize-space()='NEW BIKES']");
     public By upcomingBikesOption = By.xpath("//a[@data-track-label='nav-upcoming-bikes']");
     public By royalEnfieldBrand = By.xpath("//a[@title='upcoming Royal Enfield bikes']");
@@ -19,7 +19,7 @@ public class ZigPage {
     public By bikePrices = By.xpath("//div[contains(@class,'fnt-15')]");
     public By bikeLaunchDates = By.xpath("//div[contains(@class,'clr-try fnt-14')]");
 
-    // Used Cars Locators - Chennai Focus
+    // Used Cars Chennai Locators
     public By moreMenu = By.xpath("//span[@class='c-p']");
     public By usedCarsLink = By.xpath("//a[normalize-space()='Used Cars']");
     public By chennaiCity = By.xpath("//a[@class='searchFilter' and @data-value='Chennai']");
@@ -27,9 +27,9 @@ public class ZigPage {
     public By carNames = By.xpath("//a[@data-track-label='Car-name']");
     public By carPrices = By.xpath("//span[contains(@class,'zw-cmn-price')]");
 
-    // Login Locators
-    public By loginIcon = By.xpath("//*[@id='des_lIcon']");
-    public By googleBtn = By.xpath("//*[@id='myModal3-modal-content']//span[contains(text(),'Google')]");
+    // Updated Login Locators
+    public By loginIcon = By.id("des_lIcon");
+    public By googleBtn = By.className("googleSignIn"); // Updated based on provided snippet
     public By emailField = By.id("identifierId");
     public By googleErrorHeader = By.xpath("//span[contains(text(),'Couldn’t sign you in')]");
 }
