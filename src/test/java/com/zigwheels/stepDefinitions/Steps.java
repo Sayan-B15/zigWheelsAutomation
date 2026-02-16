@@ -26,13 +26,21 @@ public class Steps extends BaseClass {
 
     @When("User identifies upcoming Royal Enfield bikes under 4Lac")
     public void identify_re_bikes() {
-        actions.moveToElement(driver.findElement(zig.newBikesMenu)).perform();
-        driver.findElement(zig.upcomingBikesOption).click();
+        // 1. Hover over New Bikes
+        WebElement newBikes = wait.until(ExpectedConditions.visibilityOfElementLocated(zig.newBikesMenu));
+        actions.moveToElement(newBikes).perform();
 
+        // 2. Use JavaScript click to bypass the "ElementClickInterceptedException"
+        // This ensures that even if 'Latest Bikes' is overlapping, 'Upcoming Bikes' is clicked.
+        WebElement upcomingLink = wait.until(ExpectedConditions.presenceOfElementLocated(zig.upcomingBikesOption));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", upcomingLink);
+        Logs.info("Navigated to Upcoming Bikes via JavaScript click.");
+
+        // 3. Select Royal Enfield Brand
         WebElement reBtn = wait.until(ExpectedConditions.elementToBeClickable(zig.royalEnfieldBrand));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", reBtn);
 
-        // Scroll to ensure the table is visible for the screenshot
+        // 4. Scroll and capture data
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,600)");
         wait.until(ExpectedConditions.visibilityOfElementLocated(zig.bikeNames));
         ScreenshotUtils.takeScreenshot("Royal_Enfield_Bikes");
@@ -52,11 +60,8 @@ public class Steps extends BaseClass {
 
             double val = parsePrice(priceTxt);
 
-            // Filter: Price < 4.0 Lakh and exclude non-bike summary rows
             if (val > 0 && val < 4.0 && !name.contains("Best Mileage") && !name.contains("Service Center")) {
                 System.out.println("[" + fetchTime + "] Bike: " + name + " | Price: " + priceTxt + " | Launch: " + launchDate);
-                Logs.info("Extracted Bike: " + name + " - Launch: " + launchDate);
-
                 ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow, 0, name);
                 ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow, 1, priceTxt);
                 ExcelUtils.writeToExcel("BikesOutput.xlsx", "UpcomingBikes", excelRow, 2, launchDate);
@@ -102,24 +107,61 @@ public class Steps extends BaseClass {
 
     @When("User attempts to login with Google using invalid details")
     public void login_attempt() {
-        wait.until(ExpectedConditions.elementToBeClickable(zig.loginIcon)).click();
+        int maxRetries = 2;
+        for (int i = 1; i <= maxRetries; i++) {
+            try {
+                // 1. Ensure we are on the main page and click login
+                driver.switchTo().defaultContent();
+                WebElement loginIcon = wait.until(ExpectedConditions.elementToBeClickable(zig.loginIcon));
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", loginIcon);
 
-        // Target Google button specifically inside the modal container
-        WebElement googleBtn = wait.until(ExpectedConditions.elementToBeClickable(zig.googleBtn));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", googleBtn);
+                // 2. Click Google specifically with JavaScript
+                WebElement googleBtn = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("googleSignIn")));
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", googleBtn);
+                Logs.info("Attempt " + i + ": Clicked Google button.");
 
-        String parentWindow = driver.getWindowHandle();
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(d -> d.getWindowHandles().size() > 1);
+                // 3. Robust Window Switch with polling
+                String parent = driver.getWindowHandle();
+                WebDriverWait windowWait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        for (String windowHandle : driver.getWindowHandles()) {
-            if (!windowHandle.equals(parentWindow)) {
-                driver.switchTo().window(windowHandle);
-                break;
+                // Wait until handles > 1
+                windowWait.until(ExpectedConditions.numberOfWindowsToBe(2));
+
+                for (String handle : driver.getWindowHandles()) {
+                    if (!handle.equals(parent)) {
+                        driver.switchTo().window(handle);
+                        break;
+                    }
+                }
+
+                // 4. Enter Email
+                WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("//input[@type='email' or @id='identifierId']")));
+                emailInput.sendKeys("invalid.sejal.mumbai@gmail.com" + Keys.ENTER);
+
+                // If it reached here, it succeeded.
+                Logs.info("Email entered successfully on attempt " + i);
+                return;
+
+            } catch (Exception e) {
+                Logs.info("Attempt " + i + " failed: " + e.getMessage());
+                if (i == maxRetries) {
+                    ScreenshotUtils.takeScreenshot("Google_Login_Final_Failure");
+                    throw new RuntimeException("Google login failed after " + i + " attempts.");
+                }
+
+                // CRITICAL: If failure happens, close any extra windows and refresh
+                if (driver.getWindowHandles().size() > 1) {
+                    for (String handle : driver.getWindowHandles()) {
+                        if (!handle.equals(driver.getWindowHandle())) {
+                            driver.switchTo().window(handle).close();
+                        }
+                    }
+                }
+                driver.switchTo().defaultContent();
+                driver.navigate().refresh();
             }
         }
-
-        WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(zig.emailField));
-        emailInput.sendKeys("invalid.sejal.mumbai@gmail.com" + Keys.ENTER);
     }
 
     @Then("Capture and display {string} error message")

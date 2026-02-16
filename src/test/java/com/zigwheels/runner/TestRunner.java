@@ -7,10 +7,11 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = "com.zigwheels.stepDefinitions",
         plugin = {
-                "pretty",                      // Displays logs in the console
-                "html:target/cucumber-reports", // Basic HTML report
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", // Extent Report
-                "timeline:target/timeline"      // Displays a visual timeline of tests
+                "pretty",
+                "html:target/cucumber-reports.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "timeline:target/timeline",
+                "rerun:target/failed_scenarios.txt" // Tracks failed scenarios for rerun
         }
 )
 public class TestRunner extends AbstractTestNGCucumberTests {}

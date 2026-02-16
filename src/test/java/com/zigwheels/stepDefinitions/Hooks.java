@@ -1,25 +1,18 @@
 package com.zigwheels.stepDefinitions;
 
 import com.zigwheels.base.BaseClass;
-import com.zigwheels.utils.Logs;
-import com.zigwheels.utils.ScreenshotUtils;
-import io.cucumber.java.*;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 
 public class Hooks extends BaseClass {
+
     @Before
-    public void startScenario(Scenario scenario) {
-        setup();
-        Logs.info("Started Scenario: " + scenario.getName());
+    public void setup() {
+        initialization(); // This will trigger the JOption dialog box
     }
 
     @After
-    public void endScenario(Scenario scenario) {
-        if (scenario.isFailed()) {
-            ScreenshotUtils.takeScreenshot(scenario.getName().replace(" ", "_"));
-            Logs.info("Scenario Failed: " + scenario.getName());
-        } else {
-            Logs.info("Scenario Passed: " + scenario.getName());
-        }
+    public void tearDown() {
         if (driver != null) {
             driver.quit();
         }

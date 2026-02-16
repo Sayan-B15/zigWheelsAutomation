@@ -657,3 +657,109 @@
 2026-02-16 11:06:52 [INFO] : Navigated to ZigWheels Home Page.
 2026-02-16 11:06:57 [INFO] : Google Error Captured: Couldn’t sign you in
 2026-02-16 11:06:57 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-16 12:06:57 [INFO] : Extracted Bike: Royal Enfield Bullet 650 - Launch: Feb 2026
+2026-02-16 12:06:58 [INFO] : Extracted Bike: Royal Enfield Flying Flea C6 - Launch: Mar 2026
+2026-02-16 12:06:59 [INFO] : Extracted Bike: Royal Enfield 250 - Launch: Sep 2026
+2026-02-16 12:06:59 [INFO] : Extracted Bike: Royal Enfield Interceptor 750 - Launch: Nov 2026
+2026-02-16 12:06:59 [INFO] : Extracted Bike: Royal Enfield Continental GT 750 - Launch: Nov 2026
+2026-02-16 12:07:00 [INFO] : Extracted Bike: Royal Enfield Flying Flea S6 - Launch: Jan 2027
+2026-02-16 12:07:00 [INFO] : Bikes storage successfully verified.
+2026-02-16 12:07:36 [INFO] : Used cars storage successfully verified.
+2026-02-16 12:07:50 [INFO] : Clicked Google login button.
+2026-02-16 12:09:32 [INFO] : Extracted Bike: Royal Enfield Bullet 650 - Launch: Feb 2026
+2026-02-16 12:09:34 [INFO] : Extracted Bike: Royal Enfield Flying Flea C6 - Launch: Mar 2026
+2026-02-16 12:09:34 [INFO] : Extracted Bike: Royal Enfield 250 - Launch: Sep 2026
+2026-02-16 12:09:34 [INFO] : Extracted Bike: Royal Enfield Interceptor 750 - Launch: Nov 2026
+2026-02-16 12:09:34 [INFO] : Extracted Bike: Royal Enfield Continental GT 750 - Launch: Nov 2026
+2026-02-16 12:09:35 [INFO] : Extracted Bike: Royal Enfield Flying Flea S6 - Launch: Jan 2027
+2026-02-16 12:09:35 [INFO] : Bikes storage successfully verified.
+2026-02-16 12:10:10 [INFO] : Used cars storage successfully verified.
+2026-02-16 12:10:25 [INFO] : Clicked Google login button.
+2026-02-16 12:10:28 [INFO] : Invalid email sent to login field.
+2026-02-16 12:10:30 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 12:10:56 [INFO] : Extracted Bike: Royal Enfield Bullet 650 - Launch: Feb 2026
+2026-02-16 12:10:57 [INFO] : Extracted Bike: Royal Enfield Flying Flea C6 - Launch: Mar 2026
+2026-02-16 12:10:58 [INFO] : Extracted Bike: Royal Enfield 250 - Launch: Sep 2026
+2026-02-16 12:10:58 [INFO] : Extracted Bike: Royal Enfield Interceptor 750 - Launch: Nov 2026
+2026-02-16 12:10:58 [INFO] : Extracted Bike: Royal Enfield Continental GT 750 - Launch: Nov 2026
+2026-02-16 12:10:59 [INFO] : Extracted Bike: Royal Enfield Flying Flea S6 - Launch: Jan 2027
+2026-02-16 12:10:59 [INFO] : Bikes storage successfully verified.
+2026-02-16 12:11:43 [INFO] : Used cars storage successfully verified.
+2026-02-16 12:11:56 [INFO] : Clicked Google login button.
+2026-02-16 12:12:06 [INFO] : Popup window did not appear. Attempting direct find on current page.
+2026-02-16 12:12:47 [INFO] : Google Login error capture timed out.
+2026-02-16 12:21:37 [INFO] : Extracted Bike: Royal Enfield Bullet 650 - Launch: Feb 2026
+2026-02-16 12:21:38 [INFO] : Extracted Bike: Royal Enfield Flying Flea C6 - Launch: Mar 2026
+2026-02-16 12:21:38 [INFO] : Extracted Bike: Royal Enfield 250 - Launch: Sep 2026
+2026-02-16 12:21:38 [INFO] : Extracted Bike: Royal Enfield Interceptor 750 - Launch: Nov 2026
+2026-02-16 12:21:38 [INFO] : Extracted Bike: Royal Enfield Continental GT 750 - Launch: Nov 2026
+2026-02-16 12:21:38 [INFO] : Extracted Bike: Royal Enfield Flying Flea S6 - Launch: Jan 2027
+2026-02-16 12:21:38 [INFO] : Bikes storage successfully verified.
+2026-02-16 12:22:08 [INFO] : Used cars storage successfully verified.
+2026-02-16 12:22:20 [INFO] : Clicked Google login button.
+2026-02-16 12:22:50 [INFO] : Google Login step failed. Cucumber will retry the scenario if retryCount is set.
+2026-02-16 14:00:26 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:00:38 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:00:44 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 14:02:05 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:02:12 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:02:39 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:02:49 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:02:59 [INFO] : Attempt 1 failed: Expected condition failed: waiting for com.zigwheels.stepDefinitions.Steps$$Lambda$1326/0x0000024c8d6ad0b8@46894dc5
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461899\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49931}, goog:processID: 24624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49931/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e793fe6990aecaa71d2ecec5b790943
+2026-02-16 14:03:01 [INFO] : Attempt 2: Clicked Google button.
+2026-02-16 14:03:05 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 14:07:24 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:07:26 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:07:51 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:08:03 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:08:08 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 14:08:31 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:08:34 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:09:04 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:09:14 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:09:35 [INFO] : Attempt 1 failed: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@type='email' or @id='identifierId'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email' or @id='identifierId']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.58, fedcm:accounts: true, goog:processID: 6244, ms:edgeOptions: {debuggerAddress: localhost:63422}, msedge: {msedgedriverVersion: 145.0.3800.58 (64ad1900648f..., userDataDir: C:\Users\2461899\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63422/devtoo..., se:cdpVersion: 145.0.3800.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d72e3b59cc107ce266251eded4b0affc
+2026-02-16 14:09:56 [INFO] : Attempt 2 failed: Expected condition failed: waiting for element found by By.id: des_lIcon to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#des_lIcon"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.58, fedcm:accounts: true, goog:processID: 6244, ms:edgeOptions: {debuggerAddress: localhost:63422}, msedge: {msedgedriverVersion: 145.0.3800.58 (64ad1900648f..., userDataDir: C:\Users\2461899\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63422/devtoo..., se:cdpVersion: 145.0.3800.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d72e3b59cc107ce266251eded4b0affc
+2026-02-16 14:11:36 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:11:40 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:12:04 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:12:15 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:12:16 [INFO] : Email entered successfully on attempt 1
+2026-02-16 14:12:19 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 14:12:58 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:13:01 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:13:31 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:13:40 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:13:50 [INFO] : Attempt 1 failed: Expected condition failed: waiting for number of open windows to be 2, but was: 1
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2461899\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56628}, goog:processID: 22172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56628/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 601a41a20a3ce3735fa4ea8875810e0d
+2026-02-16 14:13:52 [INFO] : Attempt 2: Clicked Google button.
+2026-02-16 14:13:57 [INFO] : Email entered successfully on attempt 2
+2026-02-16 14:13:58 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 14:14:24 [INFO] : Navigated to Upcoming Bikes via JavaScript click.
+2026-02-16 14:14:27 [INFO] : Bikes storage successfully verified.
+2026-02-16 14:14:52 [INFO] : Used cars storage successfully verified.
+2026-02-16 14:15:02 [INFO] : Attempt 1: Clicked Google button.
+2026-02-16 14:15:04 [INFO] : Email entered successfully on attempt 1
+2026-02-16 14:15:06 [INFO] : Google Error Captured: Couldn’t sign you in
