@@ -596,3 +596,64 @@
 2026-02-11 17:03:44 [INFO] : Navigated to ZigWheels Home Page.
 2026-02-11 17:03:50 [INFO] : Google Error Captured: Couldn’t sign you in
 2026-02-11 17:03:50 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 17:18:01 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:18:05 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:18:13 [INFO] : Royal Enfield data stored.
+2026-02-11 17:18:13 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:18:19 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 17:18:27 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:18:47 [INFO] : Used car data stored.
+2026-02-11 17:18:47 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 17:18:54 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 17:19:02 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:19:07 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 17:19:07 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-11 17:39:03 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:39:05 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:39:11 [INFO] : Royal Enfield data stored.
+2026-02-11 17:39:11 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:39:17 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 17:39:20 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:39:38 [INFO] : Used car data stored.
+2026-02-11 17:39:38 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 17:39:45 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 17:39:47 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:40:09 [INFO] : Scenario Failed: Verify Google Login Error Message
+2026-02-11 17:41:13 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:41:17 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:41:22 [INFO] : Royal Enfield data stored.
+2026-02-11 17:41:22 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-11 17:41:27 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-11 17:41:31 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:41:51 [INFO] : Used car data stored.
+2026-02-11 17:41:51 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-11 17:41:58 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-11 17:42:02 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-11 17:42:07 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-11 17:42:07 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-16 11:00:23 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-16 11:00:34 [INFO] : Royal Enfield extraction complete.
+2026-02-16 11:00:34 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-16 11:00:43 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-16 11:01:06 [INFO] : Used cars extraction complete.
+2026-02-16 11:01:06 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-16 11:01:14 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-16 11:01:22 [INFO] : Scenario Passed: Verify Google Login Error Message
+2026-02-16 11:05:57 [INFO] : Started Scenario: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-16 11:06:02 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-16 11:06:05 [INFO] : Extracted Bike: Royal Enfield Bullet 650 - Launch: Feb 2026
+2026-02-16 11:06:07 [INFO] : Extracted Bike: Royal Enfield Flying Flea C6 - Launch: Mar 2026
+2026-02-16 11:06:07 [INFO] : Extracted Bike: Royal Enfield 250 - Launch: Sep 2026
+2026-02-16 11:06:07 [INFO] : Extracted Bike: Royal Enfield Interceptor 750 - Launch: Nov 2026
+2026-02-16 11:06:07 [INFO] : Extracted Bike: Royal Enfield Continental GT 750 - Launch: Nov 2026
+2026-02-16 11:06:08 [INFO] : Extracted Bike: Royal Enfield Flying Flea S6 - Launch: Jan 2027
+2026-02-16 11:06:08 [INFO] : Bikes storage successfully verified.
+2026-02-16 11:06:08 [INFO] : Scenario Passed: Identify Upcoming Royal Enfield Bikes under 4Lac
+2026-02-16 11:06:15 [INFO] : Started Scenario: Extract Used Cars in Chennai
+2026-02-16 11:06:19 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-16 11:06:40 [INFO] : Used cars storage successfully verified.
+2026-02-16 11:06:40 [INFO] : Scenario Passed: Extract Used Cars in Chennai
+2026-02-16 11:06:48 [INFO] : Started Scenario: Verify Google Login Error Message
+2026-02-16 11:06:52 [INFO] : Navigated to ZigWheels Home Page.
+2026-02-16 11:06:57 [INFO] : Google Error Captured: Couldn’t sign you in
+2026-02-16 11:06:57 [INFO] : Scenario Passed: Verify Google Login Error Message

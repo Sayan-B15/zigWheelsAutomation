@@ -17,6 +17,7 @@ public class ZigPage {
     public By royalEnfieldBrand = By.xpath("//a[@title='upcoming Royal Enfield bikes']");
     public By bikeNames = By.xpath("//strong[contains(@class,'lnk-hvr')]");
     public By bikePrices = By.xpath("//div[contains(@class,'fnt-15')]");
+    public By bikeLaunchDates = By.xpath("//div[contains(@class,'clr-try fnt-14')]");
 
     // Used Cars Locators - Chennai Focus
     public By moreMenu = By.xpath("//span[@class='c-p']");
