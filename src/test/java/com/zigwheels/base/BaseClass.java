@@ -46,16 +46,19 @@ public class BaseClass {
                 options.addArguments("--window-size=1920,1080");
                 options.addArguments("--disable-gpu");
                 options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
             }
             driver = new ChromeDriver(options);
         } else if (selectedBrowser.equalsIgnoreCase("Edge")) {
             EdgeOptions options = new EdgeOptions();
             if (browserFromSystem != null) {
-                options.addArguments("--headless");
+                options.addArguments("--headless=new"); // Modern headless for Edge
                 options.addArguments("--window-size=1920,1080");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--no-sandbox");
             }
             driver = new EdgeDriver(options);
-        } else {
+        } else if (selectedBrowser.equalsIgnoreCase("Firefox")) {
             driver = new FirefoxDriver();
         }
 
@@ -63,6 +66,7 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 
+        // Maximize window only if running locally (not in Jenkins headless)
         if (browserFromSystem == null) {
             driver.manage().window().maximize();
         }
