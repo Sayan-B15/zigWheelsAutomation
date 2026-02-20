@@ -57,8 +57,10 @@ public class BaseClass {
                 options.addArguments("--window-size=1920,1080");
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-dev-shm-usage");
-                // This line below is the CRITICAL fix for the crash
-                options.addArguments("--user-data-dir=C:\\JenkinsWorkspaces\\EdgeProfile");
+
+                // Use a folder named 'EdgeProfile' inside your current Jenkins workspace
+                String userDir = System.getProperty("user.dir") + "\\target\\EdgeProfile";
+                options.addArguments("--user-data-dir=" + userDir);
             }
             driver = new EdgeDriver(options);
         } else if (selectedBrowser.equalsIgnoreCase("Firefox")) {
