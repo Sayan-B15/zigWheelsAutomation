@@ -52,10 +52,13 @@ public class BaseClass {
         } else if (selectedBrowser.equalsIgnoreCase("Edge")) {
             EdgeOptions options = new EdgeOptions();
             if (browserFromSystem != null) {
-                options.addArguments("--headless=new"); // Modern headless for Edge
-                options.addArguments("--window-size=1920,1080");
+                options.addArguments("--headless=new");
                 options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920,1080");
                 options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                // This line below is the CRITICAL fix for the crash
+                options.addArguments("--user-data-dir=C:\\JenkinsWorkspaces\\EdgeProfile");
             }
             driver = new EdgeDriver(options);
         } else if (selectedBrowser.equalsIgnoreCase("Firefox")) {
